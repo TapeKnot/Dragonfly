@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{4c4fc069-9af3-44c7-a19a-cdf15e54ff15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{9dc6900c-d120-4f2c-a299-5e8951984395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Testing">
+      <UniqueIdentifier>{98f8f9d6-bd3e-40a3-8711-b3b777bf47b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{ff99d218-d72d-40b0-9d48-8f39e35e370f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{49fd1f15-7c6e-443f-aeef-c3d9d0288435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{e2fe6f5e-a90a-4779-8df8-dab602a20500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Testing\Saucer Shoot Dragonfly">
+      <UniqueIdentifier>{b0e1287a-c58f-4ad8-b12b-afc51de59a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing\Saucer Shoot Dragonfly">
+      <UniqueIdentifier>{492d6135-7a20-4063-97f6-b42254377659}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ObjectList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\GameManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\LogManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\Manager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\WorldManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Testing.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\TestMoveObject.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\TestReticle.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\DisplayManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\Event.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\EventCollision.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\EventKeyboard.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\EventMouse.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\EventOut.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\EventStep.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Managers\ResourceManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ViewObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Bullet.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\EventNuke.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Explosion.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\GameOver.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\GameStart.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Hero.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Points.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Reticle.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Saucer.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Saucer Shoot Dragonfly\Star.cpp">
+      <Filter>Source Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\EventView.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ObjectList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\DisplayManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\GameManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\LogManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\Manager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\WorldManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Testing.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\TestMoveObject.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\TestReticle.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\Event.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\EventCollision.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\EventKeyboard.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\EventMouse.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\EventOut.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\EventStep.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Managers\ResourceManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ViewObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Bullet.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\EventNuke.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Explosion.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\GameOver.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\GameStart.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Hero.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Points.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Reticle.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Saucer.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\Saucer Shoot Dragonfly\Star.h">
+      <Filter>Header Files\Testing\Saucer Shoot Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\EventView.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\dragonfly.log">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

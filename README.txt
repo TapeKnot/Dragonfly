@@ -6,7 +6,10 @@ Files: All files can be found in the source directory or the "Managers" and "Eve
 
 Code Structure: All automated testing code is contained within "Testing.h" and "Testing.cpp". The tests can be started from "game.cpp", which has the "main" function which begins testing by default. You can also change the Boolean "testingEnabled" to false to start up Saucer Shoot Dragonfly for additional manual testing.
 
-How to Compile: Open the project solution in Visual Studio and build the game. Run the game from Visual Studio (game.cpp will run the "main" function that begins testing).
+How to Compile:
+First, extract the contents of the zipped folder "SFML-3.0" to the same directory.
+
+Then, open the project solution in Visual Studio and build the game. Run the game from Visual Studio (game.cpp will run the "main" function that begins testing).
 
 Additional info on Dragonfly can be found on the engine's website:
 https://dragonfly.wpi.edu/
